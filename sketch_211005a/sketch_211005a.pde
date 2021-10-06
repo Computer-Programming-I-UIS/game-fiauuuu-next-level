@@ -1,4 +1,4 @@
-int maxImages = 75;
+int maxImages = 54;
 int imageIndex = 0;
 
 PImage [] images = new PImage[maxImages];
