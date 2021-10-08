@@ -1,14 +1,32 @@
+import java.awt.*;
 Car player;
+UI window;
+
+
 
 
 int maxImages = 54;
 int imageIndex = 0;
+
+Buttom start;
+Buttom Pause;
+Buttom Continue;
+Buttom credits;
+Buttom tutorial;
+Buttom exit;
+Buttom yes;
+Buttom no;
+Buttom siguiente;
+
+Robot robot;
 
 
 PImage [] images = new PImage[maxImages];
 
 void setup() {
   size(1400, 800);
+  window = new UI();
+  createButtoms();
 
   player = new Car();
 
@@ -21,10 +39,9 @@ void setup() {
 }
 void draw() {
   background(0);
+  maquina();
 
-  fondo();
-    player.playerDraw();
-    player.playerMove();
+  
 }
 
 
