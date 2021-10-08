@@ -1,7 +1,8 @@
 import java.awt.*;
 Car player;
 UI window;
-
+import processing.sound.*;
+SoundFile fondo;
 
 
 
@@ -36,6 +37,11 @@ void setup() {
 
 
   frameRate(9);
+  {
+  fondo= new SoundFile(this,"musicafondo2r.wav");
+  fondo.loop();
+  fondo.amp(0.6);
+  }
 }
 void draw() {
   background(0);
