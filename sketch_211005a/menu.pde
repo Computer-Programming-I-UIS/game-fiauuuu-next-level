@@ -15,7 +15,7 @@ void maquina() {
     player.playerMove();
     break;
   case 2:
-    window.salirdeljuego();
+    window.tutorial();
     break;
   case 3:
     fondo();
