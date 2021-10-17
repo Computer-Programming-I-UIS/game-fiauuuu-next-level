@@ -94,7 +94,7 @@ class Buttom
       this.alpha = 255;
       fill(this.rectColP);//color de fondo del boton
 
-      println("!overbox");
+      //println("!overbox");
     } else
     {
       //this.theColorTx = 0;
@@ -105,7 +105,7 @@ class Buttom
       fill(this.rectColS);
 
 
-      println("overbox");
+      //println("overbox");
       overBox = false;
     }
 
@@ -116,7 +116,7 @@ class Buttom
 
         noStroke();
         window.change = true;
-        println("click");
+        //println("click");
         fill(this.pressCol);
 
 
