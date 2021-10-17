@@ -26,6 +26,7 @@ PImage [] images = new PImage[maxImages];
 
 void setup() {
   size(1400, 800);
+  println(mouseX,mouseY);
   window = new UI();
   createButtoms();
 
