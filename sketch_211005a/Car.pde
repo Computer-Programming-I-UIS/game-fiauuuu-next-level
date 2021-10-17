@@ -8,6 +8,7 @@ class Car
 
 
   PImage playerCar = loadImage("DATA/carro_1.png");
+  
 
   Car()
   {
@@ -18,6 +19,7 @@ class Car
   void playerDraw()
   {
     image(playerCar, xpos, ypos);
+    playerCar.resize(208,114);
     playerMove();
   }
 
